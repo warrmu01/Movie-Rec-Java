@@ -15,17 +15,6 @@ A Spring Boot-based RESTful API designed to manage movie reviews efficiently, bu
 - **RESTful API** 
 - **Postman**
 
-## 📝 Endpoints
-### 1. **Movies Endpoint**
-- **GET /movies**: Fetch all movies in the database.
-- **POST /movies**: Add a new movie.
-- **PUT /movies/{id}**: Update movie details by ID.
-- **DELETE /movies/{id}**: Delete a movie by ID.
-
-### 2. **Reviews Endpoint**
-- **GET /movies/{id}/reviews**: Fetch all reviews for a movie.
-- **POST /movies/{id}/reviews**: Add a review for a movie.
-- **DELETE /movies/{id}/reviews/{reviewId}**: Delete a review by ID.
 
 ## 💾 Database Configuration
 The project is configured to use **MongoDB Atlas** for cloud storage. The MongoDB cluster can be easily scaled and provides high availability.
